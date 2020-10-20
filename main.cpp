@@ -2,6 +2,10 @@
 
 int main()
 {
-  std::cout << "hello git" << std::endl;
+
+  std::string name;
+    std::cout << "What is your name?" << std::endl;
+
+  std::cout << "hello" << name <<  std::endl;
   return 1;
 }
